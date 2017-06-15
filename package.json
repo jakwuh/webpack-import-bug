@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "actual": "webpack && node ./dist/bundle.js",
+    "expected": "node ./expected.js"
+  }
+}
